@@ -96,6 +96,16 @@ Table of contents
 /*====================
 2. Theme variables
 ======================*/
+:root {
+  --logo-blue-dark: #1C3A78;
+  --logo-white: #FCFCFB;
+  --logo-red: #D14849;
+  --logo-blue: #2A4E9C;
+  --logo-dark: #111011;
+  --logo-gray: #B6B8BF;
+  --logo-yellow: #F7D34A;
+  --logo-light-yellow: #FFEFAE;
+}
 
 :root {
   --body-font: 'Roboto', sans-serif;
@@ -727,7 +737,7 @@ label {
   text-align: center;
   overflow: hidden;
   border: none;
-  background: var(--theme-color2);
+  background: var(--logo-red);
   box-shadow: var(--box-shadow);
   z-index: 1;
 }
@@ -736,7 +746,7 @@ label {
   content: "";
   height: 300px;
   width: 300px;
-  background:  var(--theme-color);
+  background:  var(--logo-blue);
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -808,7 +818,7 @@ label {
   outline: none;
   border-radius: 50px;
   color: var(--color-white);
-  background-color: var(--theme-color2);
+  background-color: var(--logo-red);
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -843,7 +853,7 @@ label {
 .header-top {
   padding: 9px 0 10px 0;
   position: relative;
-  background: var(--theme-color);
+  background: var(--logo-blue);
   z-index: 1;
 }
 
@@ -854,7 +864,7 @@ label {
   top: 0;
   bottom: -1px;
   width: 30%;
-  background: var(--theme-color2);
+  background: var(--logo-red);
   z-index: -1;
 }
 
@@ -903,7 +913,7 @@ label {
   line-height: 35px;
   color: var(--color-white);
   font-size: 16px;
-  background: var(--theme-color);
+  background: var(--logo-blue);
   text-align: center;
   margin-left: 5px;
   border-radius: 50px;
@@ -1738,7 +1748,7 @@ label {
   line-height: 75px;
   font-size: 20px;
   text-align: center;
-  background: var(--theme-color2);
+  background: var(--logo-blue-dark);
   color: var(--color-white) !important;
   position: absolute;
   border-radius: 50%;
@@ -1753,7 +1763,7 @@ label {
   top: 0;
   left: 0;
   z-index: -1;
-  background-color: var(--theme-color2);
+  background-color: var(--logo-blue);
   border-radius: 50px;
   animation: ripple-wave 1s linear infinite;
   -webkit-transform: scale(1);
@@ -2253,7 +2263,7 @@ label {
   top: 0px;
   font-size: 50px;
   font-weight: 800;
-  -webkit-text-stroke: 2px var(--theme-color);
+  -webkit-text-stroke: 2px var(--logo-blue-dark);
   -webkit-text-fill-color: transparent;
 }
 
@@ -2265,7 +2275,7 @@ label {
   text-align: center;
   color: var(--color-white);
   font-size: 60px;
-  background: var(--theme-color);
+  background: var(--logo-blue-dark);
   margin-bottom: 25px;
   box-shadow: 5px 5px 0 var(--theme-bg-light);
   position: relative;
@@ -2540,7 +2550,7 @@ label {
 
 .choose-area{
   position: relative;
-  background: var(--footer-bg);
+  background: var(--logo-blue-dark);
   z-index: 1;
 }
 
@@ -2599,7 +2609,7 @@ label {
   height: 80px;
   line-height: 75px;
   text-align: right;
-  background: var(--theme-color2);
+  background: var(--logo-red);
   border-radius: 50px 50px 50px 0;
   padding-right: 12px;
   margin-left: -12px;
@@ -2688,7 +2698,7 @@ label {
   padding: 25px 25px;
   margin: 6px;
   position: relative;
-  border-bottom: 5px solid var(--theme-color2);
+  border-bottom: 5px solid var(--logo-red);
 }
 
 .testimonial-content{
@@ -2726,7 +2736,7 @@ label {
 }
 
 .testimonial-author-info p {
-  color: var(--theme-color2);
+  color: var(--logo-red);
   font-weight: 500;
 }
 
@@ -2740,7 +2750,7 @@ label {
   height: 40px;
   line-height: 41px;
   text-align: center;
-  background: var(--theme-color2);
+  background: var(--logo-red);
   border-radius: 50px 50px 50px 0;
 }
 
@@ -2750,7 +2760,7 @@ label {
 }
 
 .testimonial-area .owl-dots .owl-dot span {
-  background: var(--theme-color2);
+  background: var(--logo-red);
   border-radius: 50px;
   margin: 5px;
   width: 8px;
@@ -2764,7 +2774,7 @@ label {
 }
 
 .testimonial-rate {
-  color: var(--theme-color2);
+  color: var(--logo-blue-dark);
   margin-bottom: 15px;
 }
 
@@ -2821,7 +2831,7 @@ label {
   height: 100px;
   line-height: 88px;
   color: var(--color-white);
-  background:  var(--theme-color2);
+  background:  var(--logo-blue-dark);
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 
@@ -3154,7 +3164,7 @@ label {
   position: absolute;
   left: 0;
   top: 0;
-  background: var(--footer-bg);
+  background: var(--logo-blue-dark);
   opacity: .8;
   width: 100%;
   height: 100%;
@@ -3176,7 +3186,7 @@ label {
 }
 
 .enroll-form-header{
-  background: var(--theme-color2);
+  background: var(--logo-red);
   border-radius: 50px 50px 50px 0;
   padding: 20px 30px;
 }
@@ -3252,7 +3262,7 @@ label {
 }
 
 .progress-box .progress .progress-bar {
-  background: var(--theme-color2);
+  background: var(--logo-red);
 }
 
 
@@ -4206,13 +4216,13 @@ label {
   padding-left: 12px;
   border-radius: 50px 50px 0 50px;
   cursor: pointer;
-  background: var(--theme-color);
+  background: var(--logo-blue-dark);
   color: var(--color-white);
   transition: var(--transition);
 }
 
 .team-item:hover .team-social-btn{
-  background: var(--theme-color2);
+  background: var(--logo-blue-dark);
 }
 
 .team-social {
@@ -4239,13 +4249,13 @@ label {
   line-height: 40px;
   margin-bottom: 10px;
   border-radius: 50px 50px 50px 0;
-  background: var(--theme-color2);
+  background: var(--logo-blue-dark);
   box-shadow: var(--box-shadow);
   transition: var(--transition);
 }
 
 .team-social a:hover {
-  background:  var(--theme-color);
+  background:  var(--logo-red);
   color: var(--color-white);
 }
 
@@ -6075,7 +6085,7 @@ label {
   position: absolute;
   width: 30px;
   height: 3px;
-  background: var(--theme-color2);
+  background: var(--logo-red);
   bottom: 0;
   left: 18px;
   z-index: -1;
@@ -6094,7 +6104,7 @@ label {
 
 .footer-list li a i {
   margin-right: 5px;
-  color: var(--theme-color2);
+  color: var(--logo-red);
 }
 
 .footer-list li a:hover {
@@ -6153,7 +6163,7 @@ label {
   font-size: 16px;
   margin-right: 15px;
   border-radius: 10px 10px 10px 0;
-  background: var(--theme-color2);
+  background: var(--logo-red);
   text-align: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
