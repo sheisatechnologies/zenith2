@@ -1595,7 +1595,7 @@ label {
   display: inline-block;
   color: var(--theme-color2);
   font-size: 25px;
-  letter-spacing: 6px;
+  /* letter-spacing: 6px; */
   font-weight: 800;
   position: relative;
   text-transform: uppercase;
