@@ -2803,7 +2803,7 @@ label {
 .counter-area::before{
   content: "";
   position: absolute;
-  background: var(--theme-color);
+  background: var(--logo-red);
   left: 0;
   top: 0;
   width: 100%;
